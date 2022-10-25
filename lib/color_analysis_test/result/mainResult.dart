@@ -22,7 +22,7 @@ class MainResult extends StatelessWidget {
                 child: Column(
                   children: const [
                     Text(
-                      "CONGRATULATIONS!",
+                      "dd CONGRATULATIONS!",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 30.0,
