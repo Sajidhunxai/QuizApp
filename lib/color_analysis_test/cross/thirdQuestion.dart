@@ -1,13 +1,8 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:untitled/color_analysis_test/eye/eyeColorForthInternet.dart';
-
-import '../eye/eyeColorSecondInternet.dart';
 import '../eye/eyeColorThirdInternet.dart';
-import '../eye/eyeColorFirstLocal.dart';
-import '../result/water.dart';
 
 class ThirdQuestion extends StatefulWidget {
   const ThirdQuestion({Key? key}) : super(key: key);

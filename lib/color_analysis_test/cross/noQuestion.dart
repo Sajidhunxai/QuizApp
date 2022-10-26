@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:untitled/color_analysis_test/cross/secondQuestion.dart';
+import 'package:untitled/color_analysis_test/result/mainResult.dart';
 
 import '../../constants/buttons.dart';
 import '../../constants/question.dart';
-import '../result/water.dart';
 
 class NoQuestion extends StatefulWidget {
   const NoQuestion({Key? key}) : super(key: key);
@@ -35,7 +35,9 @@ class _NoQuestionState extends State<NoQuestion> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const WaterResult()),
+                  MaterialPageRoute(
+                      builder: (context) =>
+                          MainResult(category: "Winter", name: "")),
                 );
               },
               icon: const Icon(Icons.check),
